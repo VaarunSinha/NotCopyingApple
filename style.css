@@ -1,0 +1,28 @@
+/* we’ll give our document a height of 100vh and make our <body> 5⨉ taller than that to give ourselves the necessary scroll length to make this work. We’ll also match the background color of the document with the background color of our images. */
+
+html {
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #000000;
+  /* height: 500vh; */
+}
+
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  max-height: 100vh;
+  max-width: 100vw;
+  transform: translate(-50%, -50%);
+}
+.hero {
+  height: 500vh;
+}
